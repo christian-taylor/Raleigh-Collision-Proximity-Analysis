@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_12d30ff17cdb4ec1998fd64f99aec844 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_12d30ff17cdb4ec1998fd64f99aec844" ></div>
+        
+</body>
+<script>    
+    
+            var map_12d30ff17cdb4ec1998fd64f99aec844 = L.map(
+                "map_12d30ff17cdb4ec1998fd64f99aec844",
+                {
+                    center: [35.7997, -78.5694],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_27e580fb20d249b2847f7a8c157bf34d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+            var marker_8ece46b4deb34cbfae6b18424d39d313 = L.marker(
+                [35.784702, -78.58801556],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_39f7e26068b94ce4a64cee4c6e50a940 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6433e074fc074e4d963cd9978e006c4e = $(`<div id="html_6433e074fc074e4d963cd9978e006c4e" style="width: 100.0%; height: 100.0%;">WakeMed Raleigh Campus</div>`)[0];
+            popup_39f7e26068b94ce4a64cee4c6e50a940.setContent(html_6433e074fc074e4d963cd9978e006c4e);
+        
+
+        marker_8ece46b4deb34cbfae6b18424d39d313.bindPopup(popup_39f7e26068b94ce4a64cee4c6e50a940)
+        ;
+
+        
+    
+    
+            var marker_7be9bd8f97b24aeabaa24fa16b055f6d = L.marker(
+                [35.828792, -78.61862136],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_72b69f6ef3a34107ac8f0d51b66e0d37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_188b0201a26245a3b474fe99be918d3c = $(`<div id="html_188b0201a26245a3b474fe99be918d3c" style="width: 100.0%; height: 100.0%;">Duke Health Raleigh Hospital</div>`)[0];
+            popup_72b69f6ef3a34107ac8f0d51b66e0d37.setContent(html_188b0201a26245a3b474fe99be918d3c);
+        
+
+        marker_7be9bd8f97b24aeabaa24fa16b055f6d.bindPopup(popup_72b69f6ef3a34107ac8f0d51b66e0d37)
+        ;
+
+        
+    
+    
+            var marker_2bb2399b3fbe43d292a5e8a958a2b981 = L.marker(
+                [35.817613, -78.70277354],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_0669ca94e85c443a913b9320cd582044 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f6c33e5daaf4cd7ad412bb25870e348 = $(`<div id="html_1f6c33e5daaf4cd7ad412bb25870e348" style="width: 100.0%; height: 100.0%;">Rex Healthcare</div>`)[0];
+            popup_0669ca94e85c443a913b9320cd582044.setContent(html_1f6c33e5daaf4cd7ad412bb25870e348);
+        
+
+        marker_2bb2399b3fbe43d292a5e8a958a2b981.bindPopup(popup_0669ca94e85c443a913b9320cd582044)
+        ;
+
+        
+    
+    
+            var marker_86a47413a6d148a49cbc0bc03b82ca07 = L.marker(
+                [35.740016, -78.78151557],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_22b360b38aa44ae29313007856db3fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9284fa9b7df347c5804cf02341f720dc = $(`<div id="html_9284fa9b7df347c5804cf02341f720dc" style="width: 100.0%; height: 100.0%;">WakeMed Cary Hospital</div>`)[0];
+            popup_22b360b38aa44ae29313007856db3fd8.setContent(html_9284fa9b7df347c5804cf02341f720dc);
+        
+
+        marker_86a47413a6d148a49cbc0bc03b82ca07.bindPopup(popup_22b360b38aa44ae29313007856db3fd8)
+        ;
+
+        
+    
+    
+            var marker_d10a27080ca24a39802339d63e82f4da = L.marker(
+                [35.909229, -78.59798074],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_c867e4d4a6d24c56be9ce9731fbd7fbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85074a475a394ae1a682e2320616e567 = $(`<div id="html_85074a475a394ae1a682e2320616e567" style="width: 100.0%; height: 100.0%;">WakeMed North Healthplex</div>`)[0];
+            popup_c867e4d4a6d24c56be9ce9731fbd7fbd.setContent(html_85074a475a394ae1a682e2320616e567);
+        
+
+        marker_d10a27080ca24a39802339d63e82f4da.bindPopup(popup_c867e4d4a6d24c56be9ce9731fbd7fbd)
+        ;
+
+        
+    
+    
+            var marker_615856db87314d099cacd02c641ccd92 = L.marker(
+                [35.917703, -78.78345488],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_4a3dd1355c894f5d90e165183f166709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_789c7dab041c4d5d9f9f13e154da4886 = $(`<div id="html_789c7dab041c4d5d9f9f13e154da4886" style="width: 100.0%; height: 100.0%;">WakeMed Brier Creek Healthplex</div>`)[0];
+            popup_4a3dd1355c894f5d90e165183f166709.setContent(html_789c7dab041c4d5d9f9f13e154da4886);
+        
+
+        marker_615856db87314d099cacd02c641ccd92.bindPopup(popup_4a3dd1355c894f5d90e165183f166709)
+        ;
+
+        
+    
+    
+            var marker_d920227ac05642a79ae83a63a7a7532f = L.marker(
+                [35.739, -78.868],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_ef1186e55e7142059063574310d48cd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14b8041122724ed9b391fc65e0147a60 = $(`<div id="html_14b8041122724ed9b391fc65e0147a60" style="width: 100.0%; height: 100.0%;">WakeMed Apex Healthplex</div>`)[0];
+            popup_ef1186e55e7142059063574310d48cd7.setContent(html_14b8041122724ed9b391fc65e0147a60);
+        
+
+        marker_d920227ac05642a79ae83a63a7a7532f.bindPopup(popup_ef1186e55e7142059063574310d48cd7)
+        ;
+
+        
+    
+    
+            var marker_8198c4f415444f6285ce903235398d4d = L.marker(
+                [36.03793, -78.89659],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_5c28b091f3c340ddb37d4019d6a28069 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fdd0f012e7c456c8712bdb1ec40baae = $(`<div id="html_4fdd0f012e7c456c8712bdb1ec40baae" style="width: 100.0%; height: 100.0%;">Durham Regional Hospital</div>`)[0];
+            popup_5c28b091f3c340ddb37d4019d6a28069.setContent(html_4fdd0f012e7c456c8712bdb1ec40baae);
+        
+
+        marker_8198c4f415444f6285ce903235398d4d.bindPopup(popup_5c28b091f3c340ddb37d4019d6a28069)
+        ;
+
+        
+    
+    
+            var marker_62957bbaf5704a5f825dcaf905103d96 = L.marker(
+                [36.00792, -78.935308],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_9e5efce131b5400fbf1d0ef880d59e6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bd548f41ddb424fbda97bb70e18e040 = $(`<div id="html_6bd548f41ddb424fbda97bb70e18e040" style="width: 100.0%; height: 100.0%;">Duke University Hospital</div>`)[0];
+            popup_9e5efce131b5400fbf1d0ef880d59e6a.setContent(html_6bd548f41ddb424fbda97bb70e18e040);
+        
+
+        marker_62957bbaf5704a5f825dcaf905103d96.bindPopup(popup_9e5efce131b5400fbf1d0ef880d59e6a)
+        ;
+
+        
+    
+    
+            var marker_d78a493534924d5cba19febed57d9948 = L.marker(
+                [35.514403, -78.333144],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_88fcd9de57df4dcf815b719c786d508a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03524470b1524816834f5c21be58d060 = $(`<div id="html_03524470b1524816834f5c21be58d060" style="width: 100.0%; height: 100.0%;">Johnston Memorial Smithfield</div>`)[0];
+            popup_88fcd9de57df4dcf815b719c786d508a.setContent(html_03524470b1524816834f5c21be58d060);
+        
+
+        marker_d78a493534924d5cba19febed57d9948.bindPopup(popup_88fcd9de57df4dcf815b719c786d508a)
+        ;
+
+        
+    
+    
+            var marker_31bcab211ce0428a8f409d09fdd6f418 = L.marker(
+                [35.904312, -79.0491146],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_1207a5a99da848f289a798f54ec7023f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ce8d73e614f44d6a74a4269b281b876 = $(`<div id="html_2ce8d73e614f44d6a74a4269b281b876" style="width: 100.0%; height: 100.0%;">N C Memorial Hospital</div>`)[0];
+            popup_1207a5a99da848f289a798f54ec7023f.setContent(html_2ce8d73e614f44d6a74a4269b281b876);
+        
+
+        marker_31bcab211ce0428a8f409d09fdd6f418.bindPopup(popup_1207a5a99da848f289a798f54ec7023f)
+        ;
+
+        
+    
+    
+            var marker_0992030081e14d6cbfd1382caa624e6d = L.marker(
+                [35.630255, -78.50327514],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_663ba5a112c54e5ebe7fe8c34827ca2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f31d69eef30a409cb0fe144220626d82 = $(`<div id="html_f31d69eef30a409cb0fe144220626d82" style="width: 100.0%; height: 100.0%;">Johnston Memorial Clayton</div>`)[0];
+            popup_663ba5a112c54e5ebe7fe8c34827ca2d.setContent(html_f31d69eef30a409cb0fe144220626d82);
+        
+
+        marker_0992030081e14d6cbfd1382caa624e6d.bindPopup(popup_663ba5a112c54e5ebe7fe8c34827ca2d)
+        ;
+
+        
+    
+    
+            var marker_170dad506d324dca897125dc1d920be3 = L.marker(
+                [35.424589, -78.809343],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_0cb417629ae642a0b91f51451eec4d4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51f25395cdf14b75b639df01902391b8 = $(`<div id="html_51f25395cdf14b75b639df01902391b8" style="width: 100.0%; height: 100.0%;">Central Harnett Hospital</div>`)[0];
+            popup_0cb417629ae642a0b91f51451eec4d4e.setContent(html_51f25395cdf14b75b639df01902391b8);
+        
+
+        marker_170dad506d324dca897125dc1d920be3.bindPopup(popup_0cb417629ae642a0b91f51451eec4d4e)
+        ;
+
+        
+    
+    
+            var marker_5b684feaa1aa40428dbb4c516f6c29cb = L.marker(
+                [35.30683, -78.6347374],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_f5877fc43f9244d0a130f7a0093ecaf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b58b515fb3ae4e84ab38f10337a4e681 = $(`<div id="html_b58b515fb3ae4e84ab38f10337a4e681" style="width: 100.0%; height: 100.0%;">Betsy Johnson Regional Hosp</div>`)[0];
+            popup_f5877fc43f9244d0a130f7a0093ecaf7.setContent(html_b58b515fb3ae4e84ab38f10337a4e681);
+        
+
+        marker_5b684feaa1aa40428dbb4c516f6c29cb.bindPopup(popup_f5877fc43f9244d0a130f7a0093ecaf7)
+        ;
+
+        
+    
+    
+            var marker_7c99552af8f044e3ba9551acd851c273 = L.marker(
+                [36.326279, -78.5934078],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_393f5afef3ae486fb069686789ee5c9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cb9d86400ee44299c813c4c3451d286 = $(`<div id="html_8cb9d86400ee44299c813c4c3451d286" style="width: 100.0%; height: 100.0%;">Granville Medical Center</div>`)[0];
+            popup_393f5afef3ae486fb069686789ee5c9a.setContent(html_8cb9d86400ee44299c813c4c3451d286);
+        
+
+        marker_7c99552af8f044e3ba9551acd851c273.bindPopup(popup_393f5afef3ae486fb069686789ee5c9a)
+        ;
+
+        
+    
+    
+            var marker_b5e66318802d4e09832988be22a34b61 = L.marker(
+                [36.009, -78.938],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_6965c39afa254755ae27bfe4f9664ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f34fa79a09d74e76bede24cf67d76978 = $(`<div id="html_f34fa79a09d74e76bede24cf67d76978" style="width: 100.0%; height: 100.0%;">Durham VA Medical Center</div>`)[0];
+            popup_6965c39afa254755ae27bfe4f9664ab6.setContent(html_f34fa79a09d74e76bede24cf67d76978);
+        
+
+        marker_b5e66318802d4e09832988be22a34b61.bindPopup(popup_6965c39afa254755ae27bfe4f9664ab6)
+        ;
+
+        
+    
+    
+            var marker_04404397c1ec4074b32c3c560bc66d4b = L.marker(
+                [35.699031, -78.596347],
+                {}
+            ).addTo(map_12d30ff17cdb4ec1998fd64f99aec844);
+        
+    
+        var popup_5aa2b1ec0c1b43918abe1d3f3e51f54b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97a098396a014c57b123bf08fe18bd5a = $(`<div id="html_97a098396a014c57b123bf08fe18bd5a" style="width: 100.0%; height: 100.0%;">WakeMed Garner Healthplex</div>`)[0];
+            popup_5aa2b1ec0c1b43918abe1d3f3e51f54b.setContent(html_97a098396a014c57b123bf08fe18bd5a);
+        
+
+        marker_04404397c1ec4074b32c3c560bc66d4b.bindPopup(popup_5aa2b1ec0c1b43918abe1d3f3e51f54b)
+        ;
+
+        
+    
+</script>
